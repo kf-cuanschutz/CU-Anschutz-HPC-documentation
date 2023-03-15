@@ -47,7 +47,34 @@ mkdir r-packages
 touch .Renviron 
 ```
 
-5) Step 5
+5) Step 5: Editing the .Renviron file.
+      In the .R environ file, please add the following paths: (Note: remember to change `$USER` with your actual username).
+      
+```R   
+R_LIBS_USER=/projects/$USER/software/echolochatoR/r-packages:/curc/sw/install/jpeg/9d/gcc/11.2.0/lib:/projects/$USER/software/echolochatoR/r-packages:/curc/sw/install/R/4.2.2/lib64:/curc/sw/jdk/18.0.1.1/lib:/curc/sw/install/R/4.2.2/lib64/R/lib:/usr/lib:/usr/lib64:/projects/$USER/software/R_libs/4.2:/curc/sw/install/gsl/2.7/gcc/11.2.0/lib:/projects/$USER/software/echolochatoR/lib 
+ 
+R_INCLUDE_DIR=/curc/sw/install/R/4.2.2/lib64/R/include:/curc/sw/install/jpeg/9d/gcc/11.2.0/include:/usr/include:/usr/include/freetype2:/curc/sw/install/gsl/2.7/gcc/11.2.0/include 
+ 
+CPATH=/curc/sw/install/jpeg/9d/gcc/11.2.0/include:/usr/local/include:/usr/include:/usr/include/freetype2:/curc/sw/install/R/4.2.2/lib64/R/include:/curc/sw/install/gsl/2.7/gcc/11.2.0/include 
+ 
+PKG_CONFIG_PATH=/curc/sw/install/gcc/11.2.0/lib64/pkgconfig:/curc/sw/install/gsl/2.7/gcc/11.2.0/lib/pkgconfig:/usr/local/lib/pkgconfig:/curc/sw/install/jpeg/9d/gcc/11.2.0/lib/pkgconfig/ 
+LD_LIBRARY_PATH=/curc/sw/install/R/4.2.2/lib64:/curc/sw/install/jpeg/9d/gcc/11.2.0/lib:/curc/sw/jdk/18.0.1.1/lib:/curc/sw/install/gsl/2.7/gcc/11.2.0/lib:/curc/sw/install/gcc/11.2.0/lib64 
+ 
+LIBRARY_PATH=/curc/sw/install/R/4.2.2/lib64:/curc/sw/install/jpeg/9d/gcc/11.2.0/lib:/curc/sw/jdk/18.0.1.1/lib:/curc/sw/install/gsl/2.7/gcc/11.2.0/lib:/curc/sw/install/gcc/11.2.0/lib64 
+```
+
+6) Step 6: Package installation
+
+  * Launch R by typing `R`.
+  * Install the EcholocatoR package by copying and pasting the lines below. Note: Make sure to replace "YOUR_PAT_Token" by your actual PAT token.
+
+```R   
+credentials::set_github_pat("YOUR_PAT_Token") 
+if(!require("remotes")) install.packages("remotes") 
+remotes::install_github("RajLabMSSM/echolocatoR") 
+library(echolocatoR) 
+```
+ 
 
 
 

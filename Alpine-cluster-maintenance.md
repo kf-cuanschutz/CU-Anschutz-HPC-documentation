@@ -16,6 +16,6 @@
    However, the screen sessions usually get killed if they were launched on the login node
    
 ### 4) How to install Globus personal as well as a persnal collection name?
-   * The following tutorial explains steps as steps [the procedure](https://docs.globus.org/how-to/globus-connect-personal-mac/)
+   * The following tutorial explains steps as steps the procedure on Macbook [machines](https://docs.globus.org/how-to/globus-connect-personal-mac/)
    * The following tutorial addresses the issue on Windows [machines](https://docs.globus.org/how-to/globus-connect-personal-windows/)
    * Finally, the following tutorial addesses the issue on Linux [machines](https://docs.globus.org/how-to/globus-connect-personal-linux/)

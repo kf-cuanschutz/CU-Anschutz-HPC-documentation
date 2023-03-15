@@ -20,4 +20,5 @@ Quickbytes that are designed for package installation and pipeline optimization.
 
   * R packages installation:
       * [AldeX2 package installation](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/ALDEx2-R-package-installation.md)
+      * [EcholocatoR package installation](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/EcholocatoR.md)
 

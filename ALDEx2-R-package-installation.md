@@ -1,7 +1,7 @@
 ALDEx2 package installation on Alpine:
 ======================================
 
-According to the bioconductor [page](https://www.globus.org/globus-connect-personal), AldeX2 is "A differential abundance analysis for the comparison of two or more conditions".
+According to the bioconductor [page](https://www.bioconductor.org/packages/release/bioc/html/ALDEx2.html), AldeX2 is "A differential abundance analysis for the comparison of two or more conditions".
 To reference this package, one can use the following dev [page](https://github.com/ggloor/ALDEx2_dev).
 Below are the following steps in order to install AldeX2 on Alpine:
 

@@ -14,7 +14,7 @@ Below are the following steps in order to install EcholocatoR on Alpine:
 
 ## EcholocatoR package installation steps.
 
-1) Step 1: Create token
+1) Step 1: Create a token
 
   The first thing to do is for you to create a token, because otherwise you will exhaust the Github API rate limit which is set at 60 requests per hour. 
 

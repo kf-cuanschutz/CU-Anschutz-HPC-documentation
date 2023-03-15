@@ -32,13 +32,14 @@ touch .Renviron
 
 5) In the .R environ file, please add the following paths: (Note: remember to change `$USER` with your actual username.
 
-```R
+```bash
 R_LIBS_USER=/projects/$USER/r-packages:/curc/sw/install/R/4.2.2/lib64:/curc/sw/jdk/18.0.1.1/lib:/curc/sw/install/gsl/2.7/gcc/11.2.0/lib:/curc/sw/install/gcc/11.2.0/lib64:/curc/sw/install/R/4.2.2/lib64/R/lib 
 R_INCLUDE_DIR=/curc/sw/install/R/4.2.2/lib64/R/include 
 CPATH=/curc/sw/install/gsl/2.7/gcc/11.2.0/include:/usr/local/include  
-```R
+```
 
 6) Finally, launch R by typing `R`, and copy and paste the following commands:
+
 ```R
 install.packages("devtools") 
 install.packages("Rfast") 

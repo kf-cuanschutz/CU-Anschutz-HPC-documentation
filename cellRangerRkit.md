@@ -86,7 +86,7 @@ PKG_CONFIG_PATH=/curc/sw/install/gsl/2.7/gcc/11.2.0/lib/pkgconfig:/curc/sw/insta
      ```
    7)Part-5: Install r-tsne
       ```R    
-     install.packages("install.packages("Rtsne") ") 
+     install.packages("Rtsne") 
      ```
    7)Part-6: Install DropletyUtils, biomaRtand scran
      ```R 
@@ -108,7 +108,7 @@ PKG_CONFIG_PATH=/curc/sw/install/gsl/2.7/gcc/11.2.0/lib/pkgconfig:/curc/sw/insta
    library(devtools) 
    library(roxygen2) 
    install_github( 'hb-gitified/cellrangerRkit', username = 'MY_GITHUB_USERNAME', auth_token = ‘YOURPATTOKEN’ ) 
-    ```R 
+    ``` 
     
  9) In case yu need to install scRNAseq.
     ```R 

@@ -12,7 +12,7 @@ Below are the following steps in order to install CellRangerRkit on Alpine:
 
 1) Step 1: Create a token
 
-  The first thing to do is for you to create a token, because otherwise you will exhaust the Github API rate limit which is set at 60 requests per hour. 
+   The first thing to do is for you to create a token, because otherwise you will exhaust the Github API rate limit which is set at 60 requests per  hour. 
   
 2) Step 2: Resource Allocation: 
 
@@ -67,28 +67,28 @@ PKG_CONFIG_PATH=/curc/sw/install/gsl/2.7/gcc/11.2.0/lib/pkgconfig:/curc/sw/insta
 7) Step 7: Install packages: launch R by typing ```bash R```& then follow the substeps below: 
    Note if asked to update packages at any of those steps always update all of them. 
    
-   7)Part-1: Load your PAT generated PAT token.
+   Part-1: Load your PAT generated PAT token.
      ```R    
      credentials::set_github_pat("YOUR_PAT_Token") 
      ```
-   7)Part-2: Install and update package devtools.
+   Part-2: Install and update package devtools.
      ```R    
      install.packages("devtools") 
      devtools::install_github("hadley/devtools") 
      ```
-   7)Part-3: Install roxygen2
+   Part-3: Install roxygen2
       ```R    
      install.packages("roxygen2") 
      ```
-   7)Part-4: Install svd
+   Part-4: Install svd
       ```R    
      install.packages("svd") 
      ```
-   7)Part-5: Install r-tsne
+   Part-5: Install r-tsne
       ```R    
      install.packages("Rtsne") 
      ```
-   7)Part-6: Install DropletyUtils, biomaRtand scran
+   Part-6: Install DropletyUtils, biomaRtand scran
      ```R 
      if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
@@ -97,7 +97,7 @@ PKG_CONFIG_PATH=/curc/sw/install/gsl/2.7/gcc/11.2.0/lib/pkgconfig:/curc/sw/insta
      BiocManager::install("biomaRt")
      BiocManager::install("scran") 
      ```
-   7)Part-7: Install scatter.
+   Part-7: Install scatter.
      ```R 
      BiocManager::install("scater") 
      ```

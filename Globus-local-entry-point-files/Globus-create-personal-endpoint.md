@@ -9,7 +9,8 @@ This tutorial shows all the steps necessary to create a personal endpoint on a M
 
 * Next, click on "Download Globus Connect Personal for Mac". Then click on "D as shown on the picture below. ![image](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/Globus-local-entry-point-files/2.png)
 
-* Double click on the downloaded Globus package as shown below: ![image](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/Globus-local-entry-point-files/7.png)
+* Double click on the downloaded Globus package as shown below: 
+* ![image](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/Globus-local-entry-point-files/7.png)
 
 * Drag the Globus icon to the Application folder as shown below: ![image](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/Globus-local-entry-point-files/8.png)
 

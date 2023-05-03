@@ -30,6 +30,6 @@ Quickbytes that are designed for package installation and pipeline optimization.
       
 ## IV- Office hours presentation slides:
       This section includes any presentation made during office hours:
-      Presentation on GNU parallel.
+     [gnu_parallel](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Office-hours-presentation-files/GNU_parallel_presentation.pdf)
 
 

@@ -37,5 +37,8 @@ Quickbytes that are designed for package installation and pipeline optimization.
 ## V- Alpine storage:
 * [Petalibrary](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Office-hours-presentation-files/Overview_of_Petalibrary.pdf)
 
+## VI- Lab workshops:
+
+
 
 

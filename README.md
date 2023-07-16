@@ -38,6 +38,18 @@ Quickbytes that are designed for package installation and pipeline optimization.
 * [Petalibrary](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Office-hours-presentation-files/Overview_of_Petalibrary.pdf)
 
 ## VI- Lab workshops:
+Workshops given to customized to labs that have been already given. Send an email to rc-help@colorado.edu to request a workshop.
+
+  * List of workshops:
+       * [Introduction to the Shell - Barocas lab](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Workshop-shell-Part1-Barocas-lab-060623.pdf)
+       * [Introduction to Slurm - Barocas lab](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_slurm_workshop-Part2-Barocas-lab-062623.pdf)
+       * [Introduction to Alpine - Kalpathy-Cramer lab](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Alpine_workshop_Kalpathy-Cramer_lab_061923.pdf)
+       * [Introduction to Slurm and Petalibrary - Lange lab](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Alpine_Langelab.pdf)
+  
+  
+
+
+      
 
 
 

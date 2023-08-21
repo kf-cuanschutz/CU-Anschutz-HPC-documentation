@@ -33,6 +33,7 @@ Quickbytes that are designed for package installation and pipeline optimization.
    
   * Deep learning installation on Alpine:
       * [Pytorch-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Pytorch_CUDA.md)
+      * [Tensorflow-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Tensorflow_CUDA.md)
       
 ## IV- Office hours presentation slides:
 * [Gnu parallel](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Office-hours-presentation-files/GNU_parallel_presentation.pdf)

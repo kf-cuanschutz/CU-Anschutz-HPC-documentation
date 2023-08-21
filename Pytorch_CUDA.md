@@ -42,7 +42,7 @@ pip install nvidia-cudnn-cu11==8.6.0.163
 ```bash
 conda deactivate
 exit
-sinteractive --partition=atesting_a100 --qos=testing --time=1:00:00 --gres=gpu:1 --ntasks=2
+sinteractive --partition=atesting_a100 --qos=testing --time=00:05:00 --gres=gpu:1 --ntasks=2
 module load anaconda
 conda activate pytorch_env
 python
@@ -55,6 +55,13 @@ python
 >>>print(torch.cuda.is_available())
 True
 ```
+
+8) Make sure to exit the GPU debug node partition after testing the installation.
+```bash
+$ exit
+exit
+```
+
 
 
 

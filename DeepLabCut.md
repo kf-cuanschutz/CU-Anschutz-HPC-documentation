@@ -95,7 +95,7 @@ conda deactivate
 exit
 sinteractive --partition=atesting_a100 --qos=testing --time=00:05:00 --gres=gpu:1 --ntasks=2
 module load anaconda
-conda activate tf_env
+conda activate DEEPLABCUT
 python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 ```
 

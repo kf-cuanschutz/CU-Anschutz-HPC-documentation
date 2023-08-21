@@ -31,7 +31,7 @@ conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit 
 ```
 
-5) Install nvidia-cudnn
+5) Install nvidia-cudnn 8.6.0
 
 ```bash
 pip install nvidia-cudnn-cu11==8.6.0.163 

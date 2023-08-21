@@ -99,6 +99,13 @@ conda activate tf_env
 python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 ```
 
+11) Make sure to exit the GPU debug node partition after testing the installation.
+   
+```bash
+$ exit
+exit
+```
+
 
 
 

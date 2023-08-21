@@ -31,7 +31,7 @@ Quickbytes that are designed for package installation and pipeline optimization.
   * MATLAB installation in Juputerlab:
       * [MATLAB-kernel-installation](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/MATLAB-kernel-on-Jupyterlab.md)
    
-  * Deep learning installation on Alpine:
+  * Deep learning applications installation on Alpine:
       * [Pytorch-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Pytorch_CUDA.md)
       * [Tensorflow-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Tensorflow_CUDA.md)
       

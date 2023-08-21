@@ -58,6 +58,7 @@ export XLA_FLAGS=--xla_gpu_cuda_data_dir=$CONDA_PREFIX
 pip install nvidia-tensorrt==8.4.1.5
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/python3.9/site-packages/tensorrt
 ```
+
 8) We link libnvinfer.so.8  to libnvinfer.so.7 :
 
 ```bash
@@ -65,3 +66,13 @@ ln -s $CONDA_PREFIX/lib/python3.9/site-packages/tensorrt/libnvinfer.so.8 $CONDA_
 ln -s $CONDA_PREFIX/lib/python3.9/site-packages/tensorrt/libnvinfer_plugin.so.8  $CONDA_PREFIX/lib/python3.9/site-packages/tensorrt/libnvinfer_plugin.so.7 
 ```
 
+9) To test that your installation is working you will need to exit "acompile"  first and load on the NVIDIA GPU debug partition on Alpine"
+
+```bash
+conda deactivate
+exit
+sinteractive --partition=atesting_a100 --qos=testing --time=00:05:00 --gres=gpu:1 --ntasks=2
+module load anaconda
+conda activate tf_env
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+```

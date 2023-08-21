@@ -57,6 +57,7 @@ True
 ```
 
 8) Make sure to exit the GPU debug node partition after testing the installation.
+   
 ```bash
 $ exit
 exit

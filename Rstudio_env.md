@@ -118,7 +118,7 @@ BiocManager::install("rhdf5", lib="/projects/kfotso@xsede.org/Rstudio_libs/4.2.2
 
 15) Make sure to save your session
 ```R
-$ q(save = "no")
+$ q(save = "yes")
 ```
 
 

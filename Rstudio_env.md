@@ -22,7 +22,7 @@ This tutorial will show you a recipe on how to set up paths on Rstudio so that y
 ![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/3_b_tab_for_global_working_dir_.png)
 
 5) Change your working directory path following the image below. Make sure to have all the options selected the same way they appear on the screenshot.
-   Important note: If you need to use your scratch space with Rstudio, it will be located under "/gpfs/alpine1/scratch/$USER".
+   Important note: If you need to use your scratch space with Rstudio, it will be located under **"/gpfs/alpine1/scratch/$USER"** .
 
 ![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/4_Rstudio_default_working_dir.png)
 

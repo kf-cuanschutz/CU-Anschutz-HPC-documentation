@@ -50,11 +50,13 @@ software]$ spack install bzip2@1.0.8%gcc@8.4.1
 software]$ spack install lzma@4.32.7%gcc@8.4.1
 ```
 9) Note that the corresponding LD_LIBRARY_PATH and CPATH will need to be added into Rstudio.
-    For instance, in my case zlib was installed under /projects/kfotso@xsede.org/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.3-25ghirelomgkzb4dclggcqljk6ldn2yl
-    Thus the path associated with LD_LIBRARY_PATH will be /projects/kfotso@xsede.org/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.3-25ghirelomgkzb4dclggcqljk6ldn2yl/lib
-    The path associated with CPATH will be /projects/kfotso@xsede.org/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.3-25ghirelomgkzb4dclggcqljk6ldn2yl/include
+    For instance, in my case zlib was installed under /projects/kfotso@xsede.org/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.3-25ghirelomgkzb4dclggcqljk6ldn2yl.
 
-    You run the following to retrieve those paths:
+   Thus the path associated with LD_LIBRARY_PATH will be /projects/kfotso@xsede.org/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.3-25ghirelomgkzb4dclggcqljk6ldn2yl/lib
+   
+    The path associated with CPATH will be /projects/kfotso@xsede.org/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.3-25ghirelomgkzb4dclggcqljk6ldn2yl/include.
+
+    You may run the following to retrieve those paths:
 
 ```bash
 software]$ spack find -px  zlib@1.3%gcc@8.4.1

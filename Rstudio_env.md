@@ -4,15 +4,36 @@ Setting up Rstudio paths on Alpine:
 This tutorial will show you a recipe on how to set up paths on Rstudio so that you can correctly install packages on Alpine.
 
 ## Rstudio path steps.
+1) Log into Ondemand and locate the tab reserved for Intereactive apps and select Rstudio server custom as shown below
 
-5) Log into an Alpine shell and access a compute node:
+![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/1_server_selection.png)
+
+2) Adjust the server parameters. Make sure that your "Account" is listed as "amc-general". Note that your partition is always "ahub".
+   Also, note that your /home directory should not be full always you will not be granted the resource.
+
+![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/2_server_params.png)
+
+3) Wait until you are granted the resources and connect to Rstudio server according to the image below
+
+![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/3_server_access.png)
+
+4) Select the correct tab to configure your global working directory:
+
+![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/3_b_tab_for_global_working_dir_.png)
+
+5) Change your working directory path following the image below. Make sure to have all the options selected the same way they appear on the screenshot.
+
+![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/4_Rstudio_default_working_dir.png)
+
+
+6) Log into an Alpine shell and access a compute node:
 
 ```bash
 ~]$ module load slurm/alpine 
 ~]$ acompile --ntasks=4 --time=03:00:00
 ~]$ cd /projects/$USER/software 
 ```
-6) Download spack and install it based on https://spack.readthedocs.io/en/latest/
+7) Download spack and install it based on https://spack.readthedocs.io/en/latest/
 
 ```bash
 software ]$ module load slurm/alpine
@@ -20,14 +41,14 @@ software ]$ git clone -c feature.manyFiles=true https://github.com/spack/spack.g
 software ]$ . spack/share/spack/setup-env.sh
 ```
 
-7) Install zlib, bzip2 and lzma.
+8) Install zlib, bzip2 and lzma.
 
 ```bash
 software]$ spack install  zlib@1.3%gcc@8.4.1
 software]$ spack install bzip2@1.0.8%gcc@8.4.1
 software]$ spack install lzma@4.32.7%gcc@8.4.1
 ```
-8) Note that the corresponding LD_LIBRARY_PATH and CPATH will need to be added into Rstudio. You run the following to retrieve those paths:
+9) Note that the corresponding LD_LIBRARY_PATH and CPATH will need to be added into Rstudio. You run the following to retrieve those paths:
 
 ```bash
 software]$ spack find -px  zlib@1.3%gcc@8.4.1
@@ -35,13 +56,13 @@ software]$ spack find -px bzip2@1.0.8%gcc@8.4.1
 software]$ spack find -px lzma@4.32.7%gcc@8.4.1
 ```
 
-9) Create a Makevars file:
+10) Create a Makevars file:
 
 ```bash
 software]$ touch ~/.R/Makevars
 ```
 
-10) Edit the file and add variables similar to the following below. Note that you should add the paths optained on step 8
+11) Edit the file and add variables similar to the following below. Note that you should add the paths optained on step 8
 
 ```bash
 LDFLAGS+=-L/projects/kefo9343/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.2.13-axwtx3dzwaqi47indh2blq72sxuqgexq/lib -L/curc/sw/install/gsl/2.7/gcc/11.2.0/lib -lgsl -lgslcblas -L/projects/kefo9343/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/xz-5.4.1-5veudn435wo5uhsigq6uaeoetpwzufoz/lib -L/projects/kefo9343/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/bzip2-1.0.8-x3sbg3owccshbzku5meq7ovgy75hzcf2/lib
@@ -56,7 +77,7 @@ CFLAGS+=-I/projects/kefo9343/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/
 
 PATH +=/curc/sw/install/gsl/2.7/gcc/11.2.0/bin
 ```
-10) Add the following in your Rstudio prompt:
+12) Add the following in your Rstudio prompt:
 
 ```R
 $ Sys.setenv(PATH = paste("/usr/include:/curc/sw/install/gsl/2.7/gcc/11.2.0/bin:/projects/kefo9343/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/xz-5.4.1-5veudn435wo5uhsigq6uaeoetpwzufoz",Sys.getenv("PATH"), sep=""))
@@ -78,7 +99,7 @@ $ LIB_DIR <- Sys.getenv("LIB_DIR")
 $ C_INCLUDE_PATH <- Sys.getenv("C_INCLUDE_PATH")
 ```
 
-12) If you need to install a package (e.g. rhdf5) make sure to add the installation directory with parameter lib.
+13) If you need to install a package (e.g. rhdf5) make sure to add the installation directory with parameter lib.
 ```R
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
@@ -86,7 +107,7 @@ if (!require("BiocManager", quietly = TRUE))
 BiocManager::install("rhdf5", lib="/projects/kfotso@xsede.org/Rstudio_libs/4.2.2", force=TRUE)
 ```
 
-13) Make sure to save your session
+14) Make sure to save your session
 ```R
 $ q(save = "no")
 ```

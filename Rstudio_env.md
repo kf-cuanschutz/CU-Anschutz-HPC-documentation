@@ -26,7 +26,8 @@ This tutorial will show you a recipe on how to set up paths on Rstudio so that y
 ![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/4_Rstudio_default_working_dir.png)
 
 
-6) Log into an Alpine shell and access a compute node:
+6) Context: some packages such as zlib are not available in the Rstudio system paths. Thus some additional package installation might be needed before going back to Rstudio.
+   Open an Alpine Shell from Ondemand and access a compute node:
 
 ```bash
 ~]$ module load slurm/alpine 
@@ -48,7 +49,12 @@ software]$ spack install  zlib@1.3%gcc@8.4.1
 software]$ spack install bzip2@1.0.8%gcc@8.4.1
 software]$ spack install lzma@4.32.7%gcc@8.4.1
 ```
-9) Note that the corresponding LD_LIBRARY_PATH and CPATH will need to be added into Rstudio. You run the following to retrieve those paths:
+9) Note that the corresponding LD_LIBRARY_PATH and CPATH will need to be added into Rstudio.
+    For instance, in my case zlib was installed under /projects/kfotso@xsede.org/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.3-25ghirelomgkzb4dclggcqljk6ldn2yl
+    Thus the path associated with LD_LIBRARY_PATH will be /projects/kfotso@xsede.org/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.3-25ghirelomgkzb4dclggcqljk6ldn2yl/lib
+    The path associated with CPATH will be /projects/kfotso@xsede.org/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.3-25ghirelomgkzb4dclggcqljk6ldn2yl/include
+
+    You run the following to retrieve those paths:
 
 ```bash
 software]$ spack find -px  zlib@1.3%gcc@8.4.1
@@ -63,6 +69,7 @@ software]$ touch ~/.R/Makevars
 ```
 
 11) Edit the file and add variables similar to the following below. Note that you should add the paths optained on step 8
+    We had to add the gsl path (/curc/sw/install/gsl/2.7/gcc/11.2.0) as gsl is a requirements for some of the R packages installation. 
 
 ```bash
 LDFLAGS+=-L/projects/kefo9343/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.2.13-axwtx3dzwaqi47indh2blq72sxuqgexq/lib -L/curc/sw/install/gsl/2.7/gcc/11.2.0/lib -lgsl -lgslcblas -L/projects/kefo9343/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/xz-5.4.1-5veudn435wo5uhsigq6uaeoetpwzufoz/lib -L/projects/kefo9343/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/bzip2-1.0.8-x3sbg3owccshbzku5meq7ovgy75hzcf2/lib

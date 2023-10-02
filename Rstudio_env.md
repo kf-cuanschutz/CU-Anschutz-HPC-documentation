@@ -34,11 +34,10 @@ This tutorial will show you a recipe on how to set up paths on Rstudio so that y
 
    ![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/pre_middle_6_get_to_project_dir.png)
      
-8) 
-   Important note: If you need to use your scratch space with Rstudio, it will be located under **"/gpfs/alpine1/scratch/$USER"** .
+8) Important note: If you need to use your scratch space with Rstudio, it will be located under **"/gpfs/alpine1/scratch/$USER"** .
+   Your final working directory path should look something like the screenshot below.
 
 ![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/4_Rstudio_default_working_dir.png)
-
 
 9) Context: some packages such as zlib are not available in the Rstudio system paths. Thus some additional package installation might be needed before going back to Rstudio.
    Open an Alpine Shell from Ondemand and access a compute node:

@@ -64,9 +64,9 @@ software ]$ . spack/share/spack/setup-env.sh
 11) Install zlib, bzip2 and lzma.
 
 ```bash
-software]$ spack install  zlib@1.3%gcc@8.4.1
-software]$ spack install bzip2@1.0.8%gcc@8.4.1
-software]$ spack install lzma@4.32.7%gcc@8.4.1
+software]$ spack install  zlib
+software]$ spack install bzip2
+software]$ spack install lzma
 ```
 12) Note that the corresponding LD_LIBRARY_PATH and CPATH will need to be added into Rstudio.
     For instance, in my case zlib was installed under /projects/kfotso@xsede.org/software/spack/opt/spack/linux-rhel8-zen/gcc-8.4.1/zlib-1.3-25ghirelomgkzb4dclggcqljk6ldn2yl.

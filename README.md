@@ -51,6 +51,9 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [Introduction to Slurm - Barocas lab](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_slurm_workshop-Part2-Barocas-lab-062623.pdf)
        * [Introduction to Alpine - Kalpathy-Cramer lab](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Alpine_workshop_Kalpathy-Cramer_lab_061923.pdf)
        * [Introduction to Slurm and Petalibrary - Lange lab](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Alpine_Langelab.pdf)
+       * [GPU partitions on Alpine Janani lab 090623](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Janani_lab_090623_Presentation_GPU.pdf)
+       * [Alpine entry level workshop 090723](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Entry_level_workshop_090723.pdf)
+       * [Immuno 6110 class 090723](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/IMMU6110_class_091523_v3.pdf)
   
   
 

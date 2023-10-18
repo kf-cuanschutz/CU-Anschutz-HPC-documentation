@@ -54,6 +54,7 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [GPU partitions on Alpine Janani lab 090623](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Janani_lab_090623_Presentation_GPU.pdf)
        * [Alpine entry level workshop 090723](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Entry_level_workshop_090723.pdf)
        * [Immuno 6110 class 090723](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/IMMU6110_class_091523_v3.pdf)
+       * [Intro to spack part 1 10/17/23](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Spack_part1_101723_.pdf)
   
   
 

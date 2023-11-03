@@ -19,3 +19,7 @@
    * The following tutorial explains steps as steps the procedure on Macbook [machines](https://docs.globus.org/how-to/globus-connect-personal-mac/)
    * The following tutorial addresses the issue on Windows [machines](https://docs.globus.org/how-to/globus-connect-personal-windows/)
    * Finally, the following tutorial addesses the issue on Linux [machines](https://docs.globus.org/how-to/globus-connect-personal-linux/)
+
+### 5) How can I access Globus DTN23 collection?
+
+  Please follow this [short guide](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/globus_guide.pdf)

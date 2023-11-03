@@ -36,6 +36,9 @@ Quickbytes that are designed for package installation and pipeline optimization.
       * [Pytorch-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Pytorch_CUDA.md)
       * [Tensorflow-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Tensorflow_CUDA.md)
       * [DeepLabCut-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/DeepLabCut.md)
+   
+  * Guide to use mamba instead of anaconda on Alpine:
+      * [Mamba guide on Alpine](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/mamba_tutorial.md)
       
 ## IV- Office hours presentation slides:
 * [Gnu parallel](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Office-hours-presentation-files/GNU_parallel_presentation.pdf)

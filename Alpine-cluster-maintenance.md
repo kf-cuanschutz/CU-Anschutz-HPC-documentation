@@ -23,3 +23,10 @@
 ### 5) How can I access Globus DTN23 collection?
 
   Please follow this [short guide](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/globus_guide.pdf)
+
+### 6) How can I share my folder on Alpine with someone from another institution?
+
+   In order to achieve that one will have to create a guest collection. Make sure that the collaborator who wants to access your path has access to Globus.
+   This methods works for /projects/$USER, /scratch/alpine/$USER, /pl/active/allocation_name or /pl/archive/allocation_name.
+   Please follow the procedure [here](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Globus-guest-collection-files/Presentation_Globus_guest_collection.pdf)
+   in order to create guest collection on Alpine.

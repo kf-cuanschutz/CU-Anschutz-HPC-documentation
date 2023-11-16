@@ -19,4 +19,5 @@ The corresponding google colab can be found [here](https://colab.research.google
 ##### Week 7 Accelerating Genome Sequencing Analysis with NVIDIA Clara Parabricks: 
 Link to Parafabrick can be found [here](https://docs.nvidia.com/clara/parabricks/4.1.0/index.html) and 
 [here]( https://www.nvidia.com/en-us/launchpad/ai/accelerated-genomic-analysis-with-clara-parabricks/). For questions regarding Parafabricks licensing please refer to this [link](https://www.nvidia.com/en-us/clara/genomics/free-trial-vs-buy/).
-Finally, The presenter Gregory Zynda also referred to this link to get [started](http://gregoryzynda.com/tutorials/parabricks/01-introduction.html#course-objectives).
+The presenter Gregory Zynda also referred to this link to get [started](http://gregoryzynda.com/tutorials/parabricks/01-introduction.html#course-objectives).
+Finally, the video recordings can be found [here](https://trending.markiiisys.com/cu-anschutz-aiseries).

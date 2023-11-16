@@ -58,6 +58,7 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [Alpine entry level workshop 090723](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Entry_level_workshop_090723.pdf)
        * [Immuno 6110 class 090723](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/IMMU6110_class_091523_v3.pdf)
        * [Intro to spack part 1 10/17/23](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Spack_part1_101723_.pdf)
+       * [Intro to Horovod part 1 10/24/23](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Horovod_102423_part1_official_v2.pdf)
        * [Alpine entry level workshop 110223](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Entry_level_workshop_110223_final_version_.pdf)
   
   

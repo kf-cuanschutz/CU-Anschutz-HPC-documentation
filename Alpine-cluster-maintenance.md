@@ -45,5 +45,5 @@
    /pl/archive/allocation_name
    ```
 
-   Please follow the procedure [here](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Globus-guest-collection-files/Presentation_Globus_guest_collection.pdf)
+   Please follow the procedure [here](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Globus-guest-collection-files/Presentation_Globus_guest_collection_v2.pdf)
    in order to create guest collection on Alpine.

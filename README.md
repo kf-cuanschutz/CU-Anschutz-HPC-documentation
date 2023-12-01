@@ -61,6 +61,8 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [Intro to spack part 1 10/17/23](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Spack_part1_101723_.pdf)
        * [Intro to Horovod part 1 10/24/23](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Horovod_102423_part1_official_v2.pdf)
        * [Alpine entry level workshop 110223](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Entry_level_workshop_110223_final_version_.pdf)
+       * [Intro to GPU computing part 1 112823](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_GPU_programming_workshop_112823_part_1.pdf)
+       * [Intro to GPU computing part 2 113023](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_GPU_programming_workshop_113023_part_2.pdf)
   
   
 

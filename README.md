@@ -63,6 +63,7 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [Alpine entry level workshop 110223](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Entry_level_workshop_110223_final_version_.pdf)
        * [Intro to GPU computing part 1 112823](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_GPU_programming_workshop_112823_part_1.pdf)
        * [Intro to GPU computing part 2 113023](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_GPU_programming_workshop_113023_part_2.pdf)
+       * [Intro to GPU computing part 3 120423](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_GPU_programming_workshop_120523_final_version.pdf)
   
   
 

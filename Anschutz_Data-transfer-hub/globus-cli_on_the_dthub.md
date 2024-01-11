@@ -30,15 +30,17 @@ In this guide, we focus on Globus-cli and demonstrate how to use the globus comm
 
  ![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/3.png)
 
-  To get more information regarding your username identity you may enter something similar to the following command: “globus  get-identities –v ‘username’”. 
-
+  ```diff
+  !To get more information regarding your username identity you may enter something similar to the following command: “globus  get-identities –v ‘username’”. 
+  ```
  ![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/5.png)
 
   
-  
-  Please refer to the screenshot below. Looking closely, at the output one can see their globus ID, their username, full name, organisation and email address associated with the   account. 
-  Your email address should always be the same one that is associated with your access account. 
-  Your username is the same one as your access account but ends with access-ci.org in lieu of xsede.org. 
+  ```diff
+  !Please refer to the screenshot below. Looking closely, at the output one can see their globus ID, their username, full name, organisation and email address associated with the   account. 
+  !Your email address should always be the same one that is associated with your access account. 
+  !Your username is the same one as your access account but ends with access-ci.org in lieu of xsede.org.
+  ```
 
 
 ## Step 4: Assessment of the CU Boulder DTN

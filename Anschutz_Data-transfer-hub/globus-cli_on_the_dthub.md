@@ -86,7 +86,7 @@ In this guide, we focus on Globus-cli and demonstrate how to use the globus comm
 The command above should print some kind of URL. The user will kindly copy it and paste into one of your browser, assuming they are already logged into Globus with their correct access ID. The output should look similar to what is below. 
 
 ### screenshot of the setup command and its output
-![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/15.png)
+![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/15_b.png)
 
 ### screenshots showing the steps in the browser necessary for the authentication of the endpoint
 ![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/13.png)
@@ -118,7 +118,7 @@ globus transfer $ep1:~/data_cudnn $ep2:/scratch/alpine/kfotso@xsede.org  --recur
 It will ask you to enter a “globus session content” command. Once entered, please copy the URL to the browser, select your identifier, and copy back the authorization token to the terminal as shown below. 
 
 ### Steps in the shell
-![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/21.png)
+![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/21_b.png)
 
 ### screenshots showing the steps in the browser necessary for the authentication of the endpoint
 ![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/20.png)

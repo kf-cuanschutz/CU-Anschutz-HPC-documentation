@@ -101,7 +101,7 @@ Then once on the browser the user may copy the authorization code and paste it b
 
 ```bash
 sshfs fotsok@somdlapps01:/home/fotsok/CUDNN /home/fotsok/data_cudnn 
-```bash
+```
  
 Once that is done, we can make the transfer happen: 
 

@@ -105,17 +105,20 @@ Step 8: Mount folder of interest and initiate the transfer.
 
  Once that is done, mount your folder of interest either with mount.sh if a Windows filesystem or sshfs if a linux filesystem. Please refer to the other guide on the data transfer hub setup. 
 
-```bash
-sshfs fotsok@somdlapps01:/home/fotsok/CUDNN /home/fotsok/data_cudnn 
-```
+![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/18.png)
  
-Once that is done, we can make the transfer happen: 
+Once that is done, we can make the transfer happen with the command:
 
 ```bash
 globus transfer $ep1:~/data_cudnn $ep2:/scratch/alpine/kfotso@xsede.org  --recursive --label "Test 1" 
 ```
-
 It will ask you to enter a “globus session content” command. Once entered, please copy the URL to the browser, select your identifier, and copy back the authorization token to the terminal as shown below. 
+
+### Steps in the shell
+![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/21.png)
+
+### screenshots showing the steps in the browser necessary for the authentication of the endpoint
+![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/20.png)
 
 For more information on globus-cli in general please refer to this link [4]. 
 

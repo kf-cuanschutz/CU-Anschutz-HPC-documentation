@@ -66,7 +66,7 @@ Simply run ls –la /tmp to see if you own any folder there and if that is the c
 
 To begin a transfer simply open a tmux or screen session. Tmux and screen will allow the user to log out of the system without interferring with any transfer. 
 There is a variety of ways you can make a transfer on the hub to Alpine: Globus-cli, scp, rsync. 
-Note that scp and rsync require the user to have been already enrolled in the Anschutz ssh program. 
+Note that scp and rsync require the user to have been already enrolled into the Anschutz ssh program. 
 
 
 ## Step 6: Unmount drive

@@ -82,7 +82,7 @@ To unmount the system simply run
 To mount a linux filesystem one will need to use sshfs. Make sure to create the associated directory as done above. 
 In the example below, I want to mount a directory called “CUDNN” from a system named somdlapps01 visible from the campus internal network that is located 
 on a different linux system on campus. 
-Thus a create a folder “data_cudnn” and use sshfs to mount it. 
+Thus I create a folder “data_cudnn” and use sshfs to mount it. 
 
 ```bash
 [fotsok@psomdapp806 ~]$mkdir ~/data_cudnn 

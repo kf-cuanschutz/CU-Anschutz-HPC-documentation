@@ -100,4 +100,4 @@ exit
 ```
 <br/>
 
-1.  Now you are all done!  You should be able to [request an Rstudio OnDemand session by following instructions listed in this link](#logging-into-rstudio-ondemand) and then install all R packges using `install.packages()` and `BiocManager::install()`.
+7.  Now you are all done!  You should be able to [request an Rstudio OnDemand session by following instructions listed in this link](#logging-into-rstudio-ondemand) and then install all R packges using `install.packages()` and `BiocManager::install()`.

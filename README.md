@@ -12,7 +12,7 @@ This repository is composed of two blocks: (1) An FAQ block, (2) An Alpine pipel
 
 ## I- FAQ:
 
-*  For questions regarding Alpine maintenance please visit [here](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/Alpine-cluster-maintenance.md).
+*  For questions regarding Alpine maintenance and globus related information please visit [here](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/Alpine-cluster-maintenance.md).
 
 ## II- Alpine pipeline optimization FAQ:
 

@@ -84,8 +84,14 @@ In this guide, we focus on Globus-cli and demonstrate how to use the globus comm
   ```bash
   globusconnect –setup
   ```
+  
+  Note: If the command above does not work, try the command below:
 
-The command above should print some kind of URL. The user will kindly copy it and paste into one of your browser, assuming they are already logged into Globus with their correct access ID. The output should look similar to what is below. 
+  ```bash
+  globusconnectpersonal –setup
+  ```
+
+  The command above should print some kind of URL. The user will kindly copy it and paste into one of your browser, assuming they are already logged into Globus with their correct    access ID. The output should look similar to what is below. 
 
 ### screenshot of the setup command and its output
 ![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/15_b.png)

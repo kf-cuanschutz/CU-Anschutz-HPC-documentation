@@ -111,6 +111,12 @@ Then once on the browser the user may copy the authorization code and paste it b
   
 ![get_globus](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Anschutz_Data-transfer-hub/Globus-cli-screenshots/16.png)
 
+ Note: If the command above does not work, try the command below:
+
+  ```bash
+  globusconnectpersonal –start &
+  ```
+
 
 ## Step 8: Mount folder of interest and initiate the transfer.
 

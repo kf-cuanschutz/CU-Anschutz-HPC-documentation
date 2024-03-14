@@ -22,7 +22,7 @@
 
 ### 5) How can I access Globus DTN23 collection?
 
-   Please follow this [short guide](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/globus_guide.pdf)
+   Please follow this [short guide](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/globus_guide_v2.pdf)
 
 ### 6) How can I share my folder on Alpine with someone from another institution?
 

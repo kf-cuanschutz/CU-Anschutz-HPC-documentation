@@ -40,7 +40,7 @@ Quickbytes that are designed for package installation and pipeline optimization.
   * Guide to use mamba instead of anaconda on Alpine:
       * [Mamba guide on Alpine](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/mamba_tutorial.md)
 
-   * AMD diversification on Alpine:
+   * AMD gpu diversification on Alpine:
       * [Adapt and NVIDIA pytorch pipeline to AMD](https://github.com/kf-cuanschutz/AMD_diversification/blob/main/README.md)
    
       

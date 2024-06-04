@@ -46,25 +46,3 @@ This tutorial will show you a recipe on how to set up paths on Rstudio so that y
 
 ![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/4_Rstudio_default_working_dir.png)
 
-9-a) Context: some packages such as zlib are not available in the Rstudio system paths. Thus some additional package installation might be needed before going back to Rstudio.
-   Open an Alpine Shell from Ondemand as shown in the screenshots below:
-
-   ![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/Shell-1.png)
-
-   ![R_studio_server](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio/Shell-2.png)
-
-9-b) Access a compute node as shown below:
-
-```bash
-~]$ module load slurm/alpine 
-~]$ acompile --ntasks=4 --time=03:00:00
-~]$ cd /projects/$USER/software 
-```
-10) Download spack and install it based on https://spack.readthedocs.io/en/latest/
-
-```bash
-software ]$ module load slurm/alpine
-software ]$ git clone -c feature.manyFiles=true https://github.com/spack/spack.git
-software ]$ . spack/share/spack/setup-env.sh
-```
-

@@ -54,7 +54,7 @@ Quickbytes that are designed for package installation and pipeline optimization.
 Workshops given to customized to labs that have been already given. Send an email to rc-help@colorado.edu to request a workshop.
 
   * List of workshops:
-       * [NVIDIA Mark IIII Sys workshop series (05/04/23 to 06/22/23)](https://trending.markiiisys.com/cu-anschutz-aiseries). Additional information can be found [here](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/nvidia_workshop_series_information_spring_23.md).
+       * [NVIDIA Mark III Sys workshop series (05/04/23 to 06/22/23)](https://trending.markiiisys.com/cu-anschutz-aiseries). Additional information can be found [here](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/nvidia_workshop_series_information_spring_23.md).
        * [Introduction to the Shell - Barocas lab](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Workshop-shell-Part1-Barocas-lab-060623.pdf)
        * [Introduction to Slurm - Barocas lab](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_slurm_workshop-Part2-Barocas-lab-062623.pdf)
        * [Introduction to Alpine - Kalpathy-Cramer lab](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Alpine_workshop_Kalpathy-Cramer_lab_061923.pdf)
@@ -71,6 +71,7 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [Alpine for noobs workshop 120723](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Alpine_Noob_Introduction_to_HPC_and_Alpine-120723.pdf)
        * [AMD_GPU_computing_022924](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_AMD_GPU_computing_022924_v3.pdf)
        * [Alpine_entry_level_workshop_030524](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Entry_level_workshop_030524_v2.pdf)
+       * [NVIDIA Mark III Sys workshop series Spring 2024 (01/25/24 to 05/02/24)](https://trending.markiiisys.com/cu-anschutz-ai-2024)
   
   
 

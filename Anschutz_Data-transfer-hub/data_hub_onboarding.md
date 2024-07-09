@@ -41,10 +41,14 @@ Now let’s jump into the folder mounting phase. To mount a folder let’s say f
 ```bash
 [fotsok@psomdapp806 ~]$mkdir my_isilon_drives  
 ```
-Then, simply run the following: 
+
+By default mounts are read-only. You can mount read-write by supplying "rw" as a third argument. In the example below,
+"my_isilon_files" will be created in your home directory.
+Your mountpoint should be a single word containing only
+letters, numbers, hyphen, and underscore.
 
 ```bash
-[fotsok@psomdapp806 ~]$sudo mount.sh //data.ucdenver.pvt/dept my_isilon_files  
+[fotsok@psomdapp806 ~]$sudo mount.sh //data.ucdenver.pvt/dept my_isilon_files rw 
 ```
 
 You may verify that the files have been properly mounted by running “df -h” or changing directory to the folder my_isilon_files with “cd ~/my_isilon_files;ls” 
@@ -52,7 +56,7 @@ This should automatically mount any folder that you have access to in Isilon. To
 re-use the mount command described above. Only thing is you will need to replace the incoming address and the mount  Directory as shown below. 
 
 ```bash
-[fotsok@psomdapp806 ~]$sudo mount.sh //PSOMDFS821.ucdenver.pvt/FotsoTesting data_hitachi
+[fotsok@psomdapp806 ~]$sudo mount.sh //PSOMDFS821.ucdenver.pvt/FotsoTesting data_hitachi rw
 ```
 
 PS: Due to the limitations of the hub, it is possible that you might run out of quota space in /tmp after attempting multiple mounts or globus set ups. 

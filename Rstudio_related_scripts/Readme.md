@@ -73,14 +73,15 @@ acompile --ntasks=4 --time=4:00:00
 ```  
 <br/>  
 
-3.  Then change directories into `/projects/$USER` by running the following:  
+3.  Then change directories into `/projects/$USER/software` by running the following:  
 ```
-cd /projects/$USER/
+cd /projects/$USER/software
 ```  
 <br/>  
 
 4.  Now run the following:  
 ```
+wget https://cran.r-project.org/src/contrib/hdf5r_1.3.11.tar.gz
 chmod u+x step0_modify_overlay.sh  
 chmod u+x step1_install_os_deps.sh
 ./step0_modify_overlay.sh  
@@ -90,6 +91,7 @@ chmod u+x step1_install_os_deps.sh
 5.  Once that completes,  run the following; note this can take a couple hours but after you do it once, often times users do not need to do it again unless there are new OS dependencies that you require:  
 ```
 ./step1_install_os_deps.sh
+R --verbose CMD INSTALL hdf5r_1.3.11.tar.gz
 ```
 <br/>  
 

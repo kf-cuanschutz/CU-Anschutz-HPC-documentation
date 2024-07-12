@@ -15,3 +15,4 @@ apt install -y libcurl4-gnutls-dev
 apt install -y libfreetype-dev
 apt install -y libbz2-dev
 apt install -y libhdf5-dev
+R --verbose CMD INSTALL hdf5r_1.3.11.tar.gz

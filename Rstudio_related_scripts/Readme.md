@@ -91,7 +91,6 @@ chmod u+x step1_install_os_deps.sh
 5.  Once that completes,  run the following; note this can take a couple hours but after you do it once, often times users do not need to do it again unless there are new OS dependencies that you require:  
 ```
 ./step1_install_os_deps.sh
-R --verbose CMD INSTALL hdf5r_1.3.11.tar.gz
 ```
 <br/>  
 

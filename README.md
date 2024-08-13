@@ -16,7 +16,7 @@ This repository is composed of two blocks: (1) An FAQ block, (2) An Alpine pipel
 
 ## II- Alpine pipeline optimization FAQ:
 
-*  For questions regarding Alpine maintenance please visit [here](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/Alpine-pipeline-opt-FAQ.md).
+*  For questions regarding Alpine optimization please visit [here](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/Alpine-pipeline-opt-FAQ.md).
 
 
 

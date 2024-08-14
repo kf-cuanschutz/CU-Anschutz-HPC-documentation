@@ -22,7 +22,7 @@ conda activate matlab
 4) Install the MATLAB kernel:
 
 ```bash
-python -m pip install matlab_kernel; python -m matlab_kernel install –user
+python -m pip install matlab_kernel; python -m matlab_kernel install --user
 ```
 
 5) A message showing where the kernel specs are installed will display. Kernel specs are queried by Jupyterlab in order to launch the MATLAB kernel:

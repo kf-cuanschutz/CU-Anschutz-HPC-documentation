@@ -46,5 +46,9 @@
    /pl/archive/allocation_name
    ```
 
+### 6) How can I transfer my dataset using Cyberduck from a MAC system?
+  Please refer to this [guide](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Cyberduck_tutorial_.pdf). 
+
+
    Please follow the procedure [here](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Globus-guest-collection-files/Presentation_Globus_guest_collection_v2.pdf)
    in order to create guest collection on Alpine.

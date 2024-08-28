@@ -2,7 +2,7 @@
 
 This guide is to demonstrate how to install Dorado as a module on Alpine. The module created is a personal one; unique to the user that installs it.
 
-If there is enough demand for Dorado, it can be turned into a public module available to all Alpine users.
+If there is enough demand for Dorado, it can be turned into a public module available to all Alpine users. For more information about Dorado on Alpine, feel free to reach out to hpcsupport@cuanschutz.edu.
 
 ## Part 1: Unpacking the tarball
 

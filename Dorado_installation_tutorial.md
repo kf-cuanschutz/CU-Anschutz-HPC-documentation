@@ -20,6 +20,47 @@ This should create a directory called dorado-<VERSION>-linux-x64, with two subdi
 
 ## Part 2: Creating the Lua file
 
+Now it's time to create the module file for dorado.
+First, you need to make a directory for lua files in your /projects/$USER/ folder:
+```
+cd /projects/$USER
+mkdir lua
+cd lua
+mkdir dorado
+```
+<br>
+Once inside the dorado folder, make a file with the format <version_name>.lua. For the example from part 1, it would be 0.7.2.lua. An easy way to create the file is with the command `touch 0.7.2.lua`.
 
+Next, add the following lines of code to the lua file:
+```
+-- This module loads Dorado
+-- Set local variables
+local PACKAGE_PREFIX = "/projects/<YOUR_USERNAME>@xsede.org/dorado_testing/dorado-0.7.2-linux-x64/"
+local USER = os.getenv("USER")
+-- Load dependencies
+always_load("python")
+-- Set Paths
+prepend_path("LD_LIBRARY_PATH", pathJoin(PACKAGE_PREFIX, "lib"))
+prepend_path("PATH", pathJoin(PACKAGE_PREFIX, "bin"))
+prepend_path("PATH", pathJoin(PACKAGE_PREFIX, "lib"))
+-- Software info:
+help([[
+Dorado:
+Dorado is a high-performance, easy-to-use, open source basecaller for Oxford Nanopore reads.
+For detailed instructions, go to:
+https://github.com/nanoporetech/dorado
+]])
+whatis("Version: 0.7.2")
+```
+Be sure to replace <YOUR_USERNAME> with your Alpine username and change the version number and paths as needed.
+
+The last part of this step is to append this new module file to your module file paths.
+To do so, edit your .bash_profile (located in your /home/ directory) and add the following line:
+
+`
+module use --append /projects/<YOUR_USERNAME>@xsede.org/lua
+`
+Be sure to replace the <YOUR_USERNAME> portion with your Alpine username.
 
 ## Part 3: Test the Module (With Examples)
+

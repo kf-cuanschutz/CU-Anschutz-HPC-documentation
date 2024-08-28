@@ -1,4 +1,4 @@
-## Dorado Installation Guide
+# Dorado Installation Guide
 
 This guide is to demonstrate how to install Dorado as a module on Alpine. The module created is a personal one; unique to the user that installs it.
 
@@ -18,8 +18,8 @@ Once that's done, change directories to /projects/$USER and run the following co
 
 This should create a directory called dorado-<VERSION>-linux-x64, with two subdirectories; "bin/" and "lib/".
 
-# Part 2: Creating the Lua file
+## Part 2: Creating the Lua file
 
 
 
-# Part 3: Test the Module (With Examples)
+## Part 3: Test the Module (With Examples)

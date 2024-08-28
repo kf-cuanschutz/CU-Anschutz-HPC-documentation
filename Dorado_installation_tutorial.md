@@ -11,10 +11,10 @@ The first few steps follow Dorado's own installation guide found here:
 
 Download the linux-x64 tarball from Dorado's github above and uploading it to your /projects/ directory.
 Once that's done, change directories to /projects/$USER and run the following command:
-
-<bash>
-  tar -xvzf dorado-0.7.2-linux-x64.tar.gz ''  # Rename with correct tar file name if necessary
-<bash>
+`
+  tar -xvzf dorado-0.7.2-linux-x64.tar.gz ''
+`
+(Rename with correct tar file name if necessary)
 
 This should create a directory called dorado-<VERSION>-linux-x64, with two subdirectories; "bin/" and "lib/".
 

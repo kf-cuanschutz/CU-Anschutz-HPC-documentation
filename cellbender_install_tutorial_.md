@@ -107,7 +107,69 @@ $ exit
 exit
 ```
 
+## CellBender module file creation and loading
 
+We may now create the .lua file associated to CellBender so that we can load it at will. This section of the tutorial follows the same pattern as this [dorado part 2 guide](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/edit/main/Dorado_installation_tutorial.md)
+To do that, we will need to create a directory containing all our lua package, that will get added retrospectively inside /projects/$USER/ folder:
+```
+cd /projects/$USER
+mkdir -p lua
+cd lua
+mkdir cellbdender
+```
+<br>
+Inside the CellBender folder, we will create a file with the format <version_name>.lua. In this case, the CellBender version was 0.3.2.lua. An easy way to create the file is with the command `touch 0.3.2.lua`.
+
+Now you may use the editor of your choice (e.g. nano, vim etc ...) in order to add the and save the scropt below:
+
+```lua
+-- This module loads Cellbender
+
+-- Set local variables
+local PACKAGE_PREFIX = "/projects/.xsede.org/foo/software/anaconda/envs/cellbender/"
+local USER = os.getenv("USER")
+
+-- Load dependencies
+always_load("anaconda")
+
+-- Set environment variables
+setenv("TMP", pathJoin("/gpfs/alpine1/scratch", USER))
+setenv("TEMP", os.getenv("TMP"))
+setenv("TMPDIR", os.getenv("TMP"))
+setenv("TEMPDIR", os.getenv("TMP"))
+setenv("PIP_CACHE_DIR", os.getenv("TMP"))
+
+-- Activate conda environment
+execute{cmd="conda activate /projects/.xsede.org/foo/software/anaconda/envs/cellbender/",modeA={"load"}}
+
+-- Software info:
+help([[
+
+
+CellBender is a software package for eliminating technical artifacts from
+high-throughput single-cell RNA sequencing (scRNA-seq) data.
+
+]])
+
+-- Software citations
+
+whatis("If you use CellBender in your research (and we hope you will), please consider citing our paper in Nature Methods: Stephen J Fleming, Mark D Chaffin, Alessandro Arduini, Amer-Denis Akkad, Eric Banks, John C Marioni, Anthony A Phillipakis, Patrick T Ellinor, and Mehrtash Babadi. Unsupervised removal of systematic background noise from droplet-based single-cell experiments using CellBender. Nature Methods, 2023. https://doi.org/10.1038/s41592-023-01943-7. See also our preprint on bioRxiv <https://doi.org/10.1101/791699>" )
+```
+
+You may replace "foo" with your Alpine username and change the version number and paths as needed.
+
+The last part of this step is to append this new module file to your module file paths.
+To do so, edit your .bash_profile (located in your /home/$USER) and add the following line:
+
+
+module use --append /projects/foo@xsede.org/lua
+
+OR
+
+module use --append /projects/.xsede.org/foo/lua
+
+
+Be sure to replace the "foo" portion with your Alpine username.
 
 
 

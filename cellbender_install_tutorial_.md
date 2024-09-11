@@ -25,7 +25,7 @@ Below are the following steps in order to install CellBender on Alpine:
 1) Step 1: Always make sure that you have a .condarc file configured as [here](https://curc.readthedocs.io/en/latest/software/python.html#configuring-conda-with-condarc)
 
 2) Step 2: Log into an Alpine compute node. We typically use the acompile partition to install packages. For more info on acompile please refer to [here](https://curc.readthedocs.io/en/latest/clusters/alpine/important-notes.html#important-notes)
-   Below, we are requesting 4 cores to slurm and a walltime of 4 hours. For more information about cores please refer to pages 3 to 5 [here](file:///Users/Fotsok/Downloads/Entry_level_workshop_030524_v2-52.pdf)
+   Below, we are requesting 4 cores to slurm and a walltime of 4 hours. For more information about cores please refer to pages 3 to 5 [here](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Entry_level_workshop_030524_v2.pdf)
 
 ```bash
 acompile --ntasks=4 --time=04:00:00

@@ -62,5 +62,5 @@ module use --append /projects/<YOUR_USERNAME>@xsede.org/lua
 `
 Be sure to replace the <YOUR_USERNAME> portion with your Alpine username.
 
-## Part 3: Test the Module (With Examples)
+Dorado should now be ready to go!
 

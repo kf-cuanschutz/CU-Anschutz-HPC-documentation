@@ -34,6 +34,7 @@ acompile --ntasks=4 --time=04:00:00
 3) Step 3: Make sure to export your cache and tmp related directory to the scratch filesystem in order to not fill out your home and /tmp filesystems, which are very small in size.
 
 ```bash
+export TMP=/gpfs/alpine1/scratch/$USER/cache_dir
 mkdir -pv $TMP
 export TEMP=$TMP
 export TMPDIR=$TMP

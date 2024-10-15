@@ -21,7 +21,7 @@ If you have logged into the the Rstudio OnDemand portal before, [please start he
 
 3.  That should take you to you the following page where you will click on the blue `Launch` botton at the bottom. Currently, the latest rstudio version is 4.4.1.  
 <br/>
-<img align="center" src="images/rstudio_preset_submission.png">  
+<img align="center" src="images/all_rstudio_versions_101524__.png">  
 <br/>  
 
 4.  After you press the `Launch` button, the SLURM scheduler will work on allocating your requested resources for Rstudio.  You will see a page that looks like the following.  It can take a few minuutes, so please be patient!  

@@ -19,7 +19,7 @@ If you have logged into the the Rstudio OnDemand portal before, [please start he
 <img align="center" src="images/rstudio_request_rstudio_session.png">   
 <br/>  
 
-3.  That should take you to you the following page where you will click on the blue `Launch` botton at the bottom.  
+3.  That should take you to you the following page where you will click on the blue `Launch` botton at the bottom. Currently, the latest rstudio version is 4.4.1.  
 <br/>
 <img align="center" src="images/rstudio_preset_submission.png">  
 <br/>  

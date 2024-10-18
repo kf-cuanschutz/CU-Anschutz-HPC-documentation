@@ -1,6 +1,8 @@
 apt-get -y update
 apt install -y zlib1g-dev
 apt install -y libglpk-dev
+apt install -y glpk-utils
+apt install -y glpk-doc
 apt install -y libfftw3-3
 apt install -y libcairo2-dev
 apt install -y libxt-dev

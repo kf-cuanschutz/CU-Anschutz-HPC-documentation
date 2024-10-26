@@ -28,6 +28,7 @@ Quickbytes that are designed for package installation and pipeline optimization.
       * [EcholocatoR package installation](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/EcholocatoR.md)
       * [CellRangerRkit related packages including devtools](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/cellRangerRkit.md)
       * [Rstudio env/path setup for package installation](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/tree/main/Rstudio_related_scripts)
+      * [Re-use Rstudio ENV with slurm](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio_on_Slurm_.md)
 
   * MATLAB installation in Juputerlab:
       * [MATLAB-kernel-installation](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/MATLAB-kernel-on-Jupyterlab.md)

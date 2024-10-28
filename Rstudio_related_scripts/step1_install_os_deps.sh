@@ -18,4 +18,3 @@ apt install -y libfreetype-dev
 apt install -y libbz2-dev
 apt install -y libhdf5-dev
 apt install -y patch
-R --verbose CMD INSTALL hdf5r_1.3.11.tar.gz

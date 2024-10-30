@@ -43,10 +43,10 @@ mkdir -pv $TMP
 module load anaconda
 conda activate cellbender
 
-# Loop through samples from RESULT_01 to RESULT_72
-for i in {01..72}
+# Loop through samples from RESULT_1 to RESULT_72
+for i in {1..72}
 do
-    # Create the sample name (e.g., RESULT_01, RESULT_02...)
+    # Create the sample name (e.g., RESULT_1, RESULT_2...)
     SAMPLE="RESULT_${i}"
     # Create a directory for each sample
     mkdir $SAMPLE
@@ -79,10 +79,10 @@ Finally, we remove the loop that we had when calling for cellbender.
 This is what is was before:
 
 ```bash
-# Loop through samples from RESULT_01 to RESULT_72
-for i in {01..72}
+# Loop through samples from RESULT_1 to RESULT_72
+for i in {1..72}
 do
-    # Create the sample name (e.g., RESULT_01, RESULT_02...)
+    # Create the sample name (e.g., RESULT_1, RESULT_2...)
     SAMPLE="RESULT_${i}"
     # Create a directory for each sample
     mkdir $SAMPLE

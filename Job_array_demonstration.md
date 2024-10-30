@@ -71,7 +71,7 @@ Now to fix it all we have to do is to add into the slurm header which correspond
 Then, we fetch the array task index corresponding to the slurm array subjobID:
 
 ```bash
-export PatientID=$SLURM_ARRAY_TASK_ID
+export IndexID=$SLURM_ARRAY_TASK_ID
 ```
 
 Finally, we remove the loop that we had when calling for cellbender.
@@ -98,7 +98,7 @@ done
 This is the **final fix**:
 
 ```bash
-SAMPLE="RESULT_${PatientID}"
+SAMPLE="RESULT_${IndexID}"
 # Create a directory for each sample
 mkdir $SAMPLE
 cellbender remove-background \

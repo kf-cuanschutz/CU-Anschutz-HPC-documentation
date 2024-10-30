@@ -13,7 +13,7 @@ Hence, if one needs to run the same operation on multiple fasta files, thus each
 
 ## Original example:
 --------------------
-Here, we are using cellbender on a gpu and we have a total of 72 samples. See the full repo [here](https://github.com/kf-cuanschutz/slurm-job-arrays/tree/main ).
+Here, we are using [cellbender](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/cellbender_install_tutorial_.md) on a gpu and we have a total of 72 samples. See the full repo [here](https://github.com/kf-cuanschutz/slurm-job-arrays/tree/main ).
 Here is the original [code](https://github.com/kf-cuanschutz/slurm-job-arrays/blob/main/cellbender_cuda_slurm.sh) running on the gpu aa100 partition. One can see the loop running on 72 samples.
 
 ```bash
@@ -72,4 +72,38 @@ Then, we fetch the array task index corresponding to the slurm array subjobID:
 
 ```bash
 export PatientID=$SLURM_ARRAY_TASK_ID
+```
+
+Finally, we remove the loop that we had when calling for cellbender.
+
+This is what is was before:
+
+```bash
+# Loop through samples from RESULT_01 to RESULT_72
+for i in {01..72}
+do
+    # Create the sample name (e.g., RESULT_01, RESULT_02...)
+    SAMPLE="RESULT_${i}"
+    # Create a directory for each sample
+    mkdir $SAMPLE
+    # Run cellbender remove-background for each sample
+    cellbender remove-background \
+        --cuda \
+        --fpr 0.1 \
+        --input /pl/active/foolab/shared/$SAMPLE/raw_feature_bc_matrix.h5 \
+        --output $SAMPLE/output.h5
+done
+```
+
+This is the **final fix**:
+
+```bash
+SAMPLE="RESULT_${PatientID}"
+# Create a directory for each sample
+mkdir $SAMPLE
+cellbender remove-background \
+       --cuda \
+       --fpr 0.1 \
+       --input /pl/active/foolab/shared/$SAMPLE/raw_feature_bc_matrix.h5 \
+       --output $SAMPLE/output.h5
 ```

@@ -107,3 +107,9 @@ cellbender remove-background \
        --input /pl/active/foolab/shared/$SAMPLE/raw_feature_bc_matrix.h5 \
        --output $SAMPLE/output.h5
 ```
+
+## Warning:
+-----------
+
+On Alpine, one can run a maximum of a 1000 slurm array [indexes](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Alpine-pipeline-opt-FAQ.md).
+If you have more than 1000 samples, consider using [gnu parallel](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Office-hours-presentation-files/GNU_parallel_presentation.pdf).

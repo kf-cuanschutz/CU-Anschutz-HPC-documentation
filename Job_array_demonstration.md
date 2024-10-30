@@ -76,7 +76,7 @@ export IndexID=$SLURM_ARRAY_TASK_ID
 
 Finally, we remove the loop that we had when calling for cellbender.
 
-This is what is was before:
+This is what it was before:
 
 ```bash
 # Loop through samples from RESULT_1 to RESULT_72

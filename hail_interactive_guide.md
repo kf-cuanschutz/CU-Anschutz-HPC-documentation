@@ -56,13 +56,13 @@ In this guide, we plan to demonstrate how to run hail on Alpine interactively. T
 
    ```bash
    python slurm-spark-submit \
---jars $HAIL_HOME/backend/hail-all-spark.jar \
---conf spark.driver.extraClassPath=$HAIL_HOME/backend/hail-all-spark.jar \
---conf spark.executor.extraClassPath=./hail-all-spark.jar \
---conf spark.serializer=org.apache.spark.serializer.KryoSerializer \
---conf spark.kryo.registrator=is.hail.kryo.HailKryoRegistrator \
---work-dir $SLURM_SUBMIT_DIR \
-hail-script.py --temp_dir $TMP
+   --jars $HAIL_HOME/backend/hail-all-spark.jar \
+   --conf spark.driver.extraClassPath=$HAIL_HOME/backend/hail-all-spark.jar \
+   --conf spark.executor.extraClassPath=./hail-all-spark.jar \
+   --conf spark.serializer=org.apache.spark.serializer.KryoSerializer \
+   --conf spark.kryo.registrator=is.hail.kryo.HailKryoRegistrator \
+   --work-dir $SLURM_SUBMIT_DIR \
+   hail-script.py --temp_dir $TMP
    ```
 
 

@@ -8,7 +8,7 @@ The hail installation that we use for our example is located in "/pl/active/CCPM
 [Hail](https://hail.is/references.html) is a genomic analysis tool that enables distributed parallel computing over multiple computer nodes.
 In this guide, we plan to demonstrate how to run hail on Alpine interactively. The python script that we use to demonstrate it was downloaded from [here](https://hail.is/docs/0.2/install/other-cluster.html).
 
-## Mamba utilization steps.
+## Hail utilization steps.
 
 1) Make sure to clone the hail repository that we implemented and go into that directory.
    We choose to this in the scratch directory.

@@ -79,6 +79,7 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [Alpine_entry_level_workshop_030524](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Entry_level_workshop_030524_v2.pdf)
        * [NVIDIA Mark III Sys workshop series Spring 2024 (01/25/24 to 05/02/24)](https://trending.markiiisys.com/cu-anschutz-ai-2024)
        * [Alpine workshop to Uhler's lab (11/25/24)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Presentation_to_Uhler_3.pdf)
+       * [GPUs on Alpine Pividori lab (01/15/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Pividori_lab_presentation_011525.pdf)
   
   
 

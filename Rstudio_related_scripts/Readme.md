@@ -76,6 +76,8 @@ acompile --ntasks=4 --time=4:00:00
 3.  Then change directories into `/projects/$USER/software` by running the following:  
 ```
 cd /projects/$USER/software
+git clone https://github.com/kf-cuanschutz/Rstudio_repo_related_files.git
+cd Rstudio_repo_related_files
 ```  
 <br/>  
 

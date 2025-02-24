@@ -81,7 +81,6 @@ cd /projects/$USER/software
 
 4.  Now run the following if you wish to use the latest Rstudio version, 4.4.1:  
 ```
-wget https://cran.r-project.org/src/contrib/hdf5r_1.3.11.tar.gz
 chmod u+x step0_modify_overlay.sh  
 chmod u+x step1_install_os_deps.sh
 ./step0_modify_overlay.sh  
@@ -89,7 +88,6 @@ chmod u+x step1_install_os_deps.sh
 
 **Note: If you wish to use the legacy 4.2.2 version, please make sure to run the following below instead:**
 ```
-wget https://cran.r-project.org/src/contrib/hdf5r_1.3.11.tar.gz
 chmod u+x step0_r_v4_2_2_modify_overlay.sh  
 chmod u+x step1_install_os_deps.sh
 ./step0_r_v4_2_2_modify_overlay.sh 

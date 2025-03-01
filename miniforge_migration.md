@@ -13,7 +13,7 @@ Any environments created while using the Anaconda or Mambaforge modules will be 
 
 
 2) As expplained [here](https://curc.readthedocs.io/en/latest/software/python.html?highlight=condarc#configuring-conda-with-condarc) When loading the Anaconda or Mamba modules, a .condarc file will be created for you in your /home/$USER directory, if the file does not exist. Please copy and paste the following block below into $HOME/$USER/.condarc so that
- miniforge points to your your /projects/$USER directory instead. The last line of the block below should also allow you to fetch the system conda environments as well.
+ miniforge points to your /projects/$USER directory instead. The last line of the block below should also allow you to fetch the system conda environments as well.
 
 ```bash
 pkgs_dirs:

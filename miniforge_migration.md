@@ -12,17 +12,24 @@ Any environments created while using the Anaconda or Mambaforge modules will be 
    If you need access to ssh on Alpine, please fill out this [form](https://ucdenverdata.formstack.com/forms/alpine_ssh_request_form) and email hpcsupport@cuanschutz.edu.
 
 
-2) Make sure that you follow this step described in the Boulder guide in order to configure
-   your [$HOME/$USER/.condarc file](https://curc.readthedocs.io/en/latest/software/python.html?highlight=condarc#configuring-conda-with-condarc).
+2) As expplained [here](https://curc.readthedocs.io/en/latest/software/python.html?highlight=condarc#configuring-conda-with-condarc) When loading the Anaconda or Mamba modules, a .condarc file will be created for you in your /home/$USER directory, if the file does not exist. Please copy and paste the following block below into $HOME/$USER/.condarc so that
+ miniforge points to your your /projects/$USER directory instead. The last line of the block below should also allow you to fetch the system conda environments as well.
 
+```bash
+pkgs_dirs:
+- /projects/.xsede.org/kfotso/.conda_pkgs
+envs_dirs:
+- /projects/.xsede.org/kfotso/software/anaconda/envs
+  /curc/sw/anaconda3/2023.09/envs
+```
 
-3)  To build packages you may access acompile as show below. Here we used 4 cores for 1 hour. The maximum of cores you may use with acompile is 4 while
+4)  To build packages you may access acompile as show below. Here we used 4 cores for 1 hour. The maximum of cores you may use with acompile is 4 while
     the wall time is 12 hours.
     ```bash
     acompile --ntasks=4 --time=01:00:00
     ```
 
-4) Let's check if Miniforge is available:
+5) Let's check if Miniforge is available:
 
   ```bash
   [kefo0001_amc@c3cpu-a2-u32-1 kefo0001_amc]$ module avail miniforge
@@ -59,6 +66,10 @@ Use "module keyword key1 key2 ..." to search for all possible modules matching a
    # conda environments:
    #
    base         /curc/sw/install/miniforge3/24.11.3-0
+   ATOC_NWP     /curc/sw/anaconda3/2023.09/envs/ATOC_NWP
+   bash_spr23   /curc/sw/anaconda3/2023.09/envs/bash_spr23
+   pyomp_2022   /curc/sw/anaconda3/2023.09/envs/pyomp_2022
+   synoptic_f23 /curc/sw/anaconda3/2023.09/envs/synoptic_f23
    cmake_env    /projects/.xsede.org/kfotso/software/anaconda/envs/cmake_env
    cupy_env_2   /projects/.xsede.org/kfotso/software/anaconda/envs/cupy_env_2
    ```
@@ -69,7 +80,7 @@ Use "module keyword key1 key2 ..." to search for all possible modules matching a
    export PIP_CACHE_DIR=/scratch/alpine/$USER
    ```
 
-8) Finally,always make sure to export all your TMP related dir as done below:
+8) Finally,always make sure to export all your TMP related directories to the scratch filesystem as done below:
    ```bash
    export TMP=/scratch/alpine/$USER
    export TEMP=/scratch/alpine/$USER

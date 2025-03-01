@@ -3,7 +3,7 @@ Guide to use mamba on Alpine:
 
 [Miniforge](https://github.com/conda-forge/miniforge) is a minimal version of anaconda that is supposed to natively fetch its packages from the conda-forge channel.
 Miniforge is supposed to be lightweight and quite fast. On Alpine, it will serve as a replacement for mambaforge, which will no longer be supported starting on March 10,2025.
-Miniforge is identical to Mambaforge in functionality (it provides access to both conda and mamba). Additionally, the newest version of Miniforge we have installed is more stable and does not result in issues when deactivating and removing environments. 
+Miniforge is identical to Mambaforge in functionality (it provides access to both conda and mamba). Additionally, the newest version of Miniforge that has been installed is more stable and does not result in issues when deactivating and removing environments. 
 Any environments created while using the Anaconda or Mambaforge modules will be accessible when you load the Miniforge module. 
 
 ## Miniforge utilization steps.

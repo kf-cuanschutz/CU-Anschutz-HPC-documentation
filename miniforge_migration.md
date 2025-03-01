@@ -11,8 +11,10 @@ Any environments created while using the Anaconda or Mambaforge modules will be 
 1) Open an Alpine OpenOndemand shell following this [guide](https://github.com/tbrunetti/Alpine_HPC_Docs/blob/main/docs/source/login_shell_app.rst).
    If you need access to ssh on Alpine, please fill out this [form](https://ucdenverdata.formstack.com/forms/alpine_ssh_request_form) and email hpcsupport@cuanschutz.edu.
 
+
 2) Make sure that you follow this step described in the Boulder guide in order to configure
-   your [condarc file](https://curc.readthedocs.io/en/latest/software/python.html?highlight=condarc#configuring-conda-with-condarc).
+   your [$HOME/$USER/.condarc file](https://curc.readthedocs.io/en/latest/software/python.html?highlight=condarc#configuring-conda-with-condarc).
+
 
 3)  To build packages you may access acompile as show below. Here we used 4 cores for 1 hour. The maximum of cores you may use with acompile is 4 while
     the wall time is 12 hours.
@@ -43,7 +45,7 @@ Use "module keyword key1 key2 ..." to search for all possible modules matching a
 [kefo0001_amc@c3cpu-a2-u32-1 kefo0001_amc]$     
    ```
 
-One can see that the available version of miniforge is 24.11.3-0. 
+  One can see that the available version of miniforge is 24.11.3-0. 
 
 5) Now let's load miniforge as shown below:
    

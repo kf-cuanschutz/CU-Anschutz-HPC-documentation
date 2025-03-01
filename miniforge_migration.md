@@ -1,4 +1,4 @@
-Guide to use mamba on Alpine:
+Guide to use Miniforge on Alpine:
 =========================================================
 
 [Miniforge](https://github.com/conda-forge/miniforge) is a minimal version of anaconda that is supposed to natively fetch its packages from the conda-forge channel.

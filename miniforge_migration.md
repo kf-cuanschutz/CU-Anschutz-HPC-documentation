@@ -22,13 +22,13 @@ envs_dirs:
   /curc/sw/anaconda3/2023.09/envs
 ```
 
-4)  To build packages you may access acompile as show below. Here we used 4 cores for 1 hour. The maximum of cores you may use with acompile is 4 while
+3)  To build packages you may access acompile as show below. Here we used 4 cores for 1 hour. The maximum of cores you may use with acompile is 4 while
     the wall time is 12 hours.
     ```bash
     acompile --ntasks=4 --time=01:00:00
     ```
 
-5) Let's check if Miniforge is available:
+4) Let's check if Miniforge is available:
 
   ```bash
   [kefo0001_amc@c3cpu-a2-u32-1 kefo0001_amc]$ module avail miniforge

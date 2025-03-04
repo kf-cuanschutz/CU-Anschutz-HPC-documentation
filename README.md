@@ -29,7 +29,7 @@ Quickbytes that are designed for package installation and pipeline optimization.
       * [CellRangerRkit related packages including devtools](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/cellRangerRkit.md)
       * [Rstudio env/path setup for package installation](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/tree/main/Rstudio_related_scripts)
       * [Reuse your Rstudio ENV with slurm](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Rstudio_on_Slurm_.md)
-      * [The little guide to address what R infrastructure I should use on Alpine](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/R_guide_on_Alpine_.pdf)
+      * [The little guide to address what R infrastructure I should use on Alpine](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/R_guide_on_Alpine_v2.pdf)
 
   * Slurm related operations:
     * [How to make slurm job arrays on Alpine?](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Job_array_demonstration.md)

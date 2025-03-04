@@ -16,9 +16,9 @@ Any environments created while using the Anaconda or Mambaforge modules will be 
 
 ```bash
 pkgs_dirs:
-- /projects/.xsede.org/kfotso/.conda_pkgs
+- /projects/$USER/.conda_pkgs
 envs_dirs:
-- /projects/.xsede.org/kfotso/software/anaconda/envs
+- /projects/$USER/software/anaconda/envs
   /curc/sw/anaconda3/2023.09/envs
 ```
 

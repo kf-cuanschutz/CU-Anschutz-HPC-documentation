@@ -1,7 +1,7 @@
 ![License](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
 
 # CU Anschutz-HPC-documentation
-All documentation associated with bioinformatics tutorial on the Alpine cluster. 
+All documentation associated with bioinformatics tutorial on the Alpine cluster.
 
 ## Overview:
 
@@ -36,22 +36,22 @@ Quickbytes that are designed for package installation and pipeline optimization.
 
   * MATLAB installation in Juputerlab:
       * [MATLAB-kernel-installation](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/MATLAB-kernel-on-Jupyterlab.md)
-   
+
   * Deep learning applications installation on Alpine:
       * [Pytorch-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Pytorch_CUDA.md)
       * [Tensorflow-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Tensorflow_CUDA.md)
       * [DeepLabCut-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/DeepLabCut.md)
       * [Dorado with Cuda](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Dorado_installation_tutorial.md)
       * [CellBender with Cuda](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/cellbender_install_tutorial_.md)
-   
+
   * Guide to use mamba instead of anaconda on Alpine:
       * [Mamba guide on Alpine](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/mamba_tutorial.md)
       * [Miniforge guide on Alpine](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/miniforge_migration.md)
 
    * AMD gpu diversification on Alpine:
       * [Adapt an NVIDIA pytorch pipeline to AMD](https://github.com/kf-cuanschutz/AMD_diversification)
-   
-      
+
+
 ## IV- Office hours presentation slides:
 * [Gnu parallel](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Office-hours-presentation-files/GNU_parallel_presentation.pdf)
 
@@ -82,11 +82,7 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [NVIDIA Mark III Sys workshop series Spring 2024 (01/25/24 to 05/02/24)](https://trending.markiiisys.com/cu-anschutz-ai-2024)
        * [Alpine workshop to Uhler's lab (11/25/24)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Presentation_to_Uhler_3.pdf)
        * [GPUs on Alpine Pividori lab (01/15/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Pividori_lab_presentation_011525.pdf)
-  
-  
-
-
-      
+       * [Alpine Best Practices Workshop](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Alpine_best_practices_workshop_03262025.pdf)
 
 
 

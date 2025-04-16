@@ -83,7 +83,7 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [Alpine workshop to Uhler's lab (11/25/24)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Presentation_to_Uhler_3.pdf)
        * [GPUs on Alpine Pividori lab (01/15/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Pividori_lab_presentation_011525.pdf)
        * [Alpine Best Practices Workshop](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Alpine_best_practices_workshop_03262025.pdf)
-       * [Containers on Alpine Workshop](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Container_workshop_040125_Han_lab.pdf)
+       * [Containers on Alpine Workshop (04/01/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Container_workshop_040125_Han_lab.pdf)
        * [Alpine workshop on gpu partitions  BARL JC (04/10/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_gpu_partitions_on_Alpine_041025.pdf)
 
 

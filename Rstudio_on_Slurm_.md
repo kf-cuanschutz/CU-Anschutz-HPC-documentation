@@ -61,6 +61,7 @@ mkdir -pv $APPTAINER_CACHEDIR $APPTAINER_TMPDIR
    latest version is 4.4.1. Now calling Rstudio. The key here is to call the container image (.img) as a read-only (:ro). That is the major difference compared to when we were trying to install the library dependencies from  [here](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/tree/main/Rstudio_related_scripts).
 
 ```bash
+   export r_app_version="4.4.1"
    apptainer exec --bind /projects,/scratch/alpine,$CURC_CONTAINER_DIR_OOD --fakeroot --overlay /projects/$USER/.rstudioserver/rstudio-${r_app_version}/rstudio-server-${r_app_version}_overlay.img:ro /curc/sw/containers/open_ondemand/rstudio-server-${r_app_version}.sif Rscript R_test.R
 ```
 

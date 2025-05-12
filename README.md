@@ -36,6 +36,9 @@ Quickbytes that are designed for package installation and pipeline optimization.
 
   * MATLAB installation in Juputerlab:
       * [MATLAB-kernel-installation](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/MATLAB-kernel-on-Jupyterlab.md)
+   
+  * Github ssh:
+      * If you want to set up your Github ssh on keys Alpine please follow [this guide from CU Boulder.](https://github.com/ResearchComputing/intro_to_git_github_fall_23)
 
   * Deep learning applications installation on Alpine:
       * [Pytorch-CUDA](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Pytorch_CUDA.md)

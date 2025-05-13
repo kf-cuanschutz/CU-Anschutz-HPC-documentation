@@ -53,6 +53,10 @@ Quickbytes that are designed for package installation and pipeline optimization.
 
    * AMD gpu diversification on Alpine:
       * [Adapt an NVIDIA pytorch pipeline to AMD](https://github.com/kf-cuanschutz/AMD_diversification)
+    
+   * Spark+Hail:
+      * [Spark+Hail interactive guide](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/hail_interactive_guide.md)
+      * [Spark+Hail batch script guide](https://github.com/kf-cuanschutz/Hail_support_cu_anschutz)
 
 
 ## IV- Office hours presentation slides:

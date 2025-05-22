@@ -42,14 +42,14 @@ export TEMPDIR=$TMP
 export PIP_CACHE_DIR=$TMP
 ```
 
-4) Step 4: For installation speed purpose, we typically use mambaforge, as anaconda tends to be very slow on Alpine. However, later to actually use the Cellbender, feel free to load anaconda.
+4) Step 4: For installation speed purpose, we typically use miniforge, as anaconda tends to be very slow on Alpine. However, later to actually use the Cellbender, feel free to load anaconda.
            Please run all the commands below
 
 ```bash
-module load mambaforge
-mamba create -n cellbender  conda-forge::python=3.7 -y
-mamba activate cellbender
-mamba install conda-forge::pytables -y
+module load miniforge
+conda create -n cellbender  conda-forge::python=3.7 -y
+conda activate cellbender
+conda install conda-forge::pytables -y
 pip install torch
 cd /projects/$USER/software
 git clone https://github.com/broadinstitute/CellBender.git

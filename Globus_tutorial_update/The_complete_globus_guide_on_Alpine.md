@@ -4,6 +4,8 @@ Here, we demonstrate how to initiate a globus transfer from a local system to Al
 Thus, this means that we will show how to log into Globus, create a personal endpoint on a MacBook Pro,
 identify the Alpine collection name and initiate the transfer.
 
+Finally, we also have an FAQ section at the very bottom of the page.
+
 ### Step 1: Download Globus Personal Package.
 
 * If you have a Macbook Pro, go to the following [link](https://docs.globus.org/how-to/globus-connect-personal-mac/) to download Globus and click on 
@@ -101,6 +103,16 @@ Note:
 
 * To begin the transfer, select the blue "Start" button on the left, as here we are transferring data from our local system to Alpine.
   If we wished to do the opposite, we would have selected the the blue "Start" button on the right.
+
+
+### FAQ:
+
+#### How can I share my folder on Alpine with someone from another institution?
+
+   In order to achieve that one will have to create a guest collection. Make sure that the collaborator who wants to access your path has access to Globus.
+   This methods works for Petalibrary allocations. Please follow the procedure [here](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Globus-guest-collection-files/Presentation_Globus_guest_collection_v2.pdf)
+   in order to create a guest collection on Alpine.
+
 
 
 

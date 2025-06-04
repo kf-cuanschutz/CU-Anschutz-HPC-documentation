@@ -57,6 +57,10 @@ Quickbytes that are designed for package installation and pipeline optimization.
    * Spark+Hail:
       * [Spark+Hail interactive guide](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/hail_interactive_guide.md)
       * [Spark+Hail batch script guide](https://github.com/kf-cuanschutz/Hail_support_cu_anschutz)
+    
+   * Data transfers:
+      * [Globus transfer guide on Alpine with FAQ](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Globus_tutorial_update/The_complete_globus_guide_on_Alpine.md)
+      * [Cyberduck transfer guide](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Cyberduck_tutorial_.pdf)
 
 
 ## IV- Office hours presentation slides:

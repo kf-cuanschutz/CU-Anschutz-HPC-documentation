@@ -28,12 +28,14 @@ Note:
 
 ### Step 3: Download Globus Connect Personal application
 
-* Select "Download Globus Connect Personal for Mac" and confirm that it was downloaded as shown below. ![image](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Globus_tutorial_update/5.png)
+* Select "Download Globus Connect Personal for Mac". ![image](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Globus_tutorial_update/5.png)
 
 
 * Confirm that you want to download that package. ![image](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Globus_tutorial_update/6.png)
   
- ![image](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/Globus-local-entry-point-files/7.png)
+ 
+
+* Confirm that it was downloaded as shown here. ![image](https://github.com/kf-cuanschutz/AMC-HPC-documentation/blob/main/Globus-local-entry-point-files/7.png)
   
 
 ### Step 4: Install Globus personal 

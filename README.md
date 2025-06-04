@@ -61,6 +61,7 @@ Quickbytes that are designed for package installation and pipeline optimization.
    * Data transfers:
       * [Globus transfer guide on Alpine with FAQ](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Globus_tutorial_update/The_complete_globus_guide_on_Alpine.md)
       * [Cyberduck transfer guide](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Cyberduck_tutorial_.pdf)
+      * [Data transfer hub guide for those struggling with data transfers from a CU Anschutz server to Alpine](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/tree/main/Anschutz_Data-transfer-hub)
 
 
 ## IV- Office hours presentation slides:

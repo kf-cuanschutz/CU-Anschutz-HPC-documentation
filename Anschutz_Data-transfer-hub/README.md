@@ -7,7 +7,7 @@ operation via scp, rsync or globus. Note that the data transfer hub is not a pow
 and describe your particular case and we will determine if this transfer method is the most appropriate one for you. 
 
 ## Warning: 
-Most of Anschutz users do not need to use the data transfer hub to transfer their data to Alpine. This data transfer hub only applies to **very marginal cases**!
+Most of Anschutz users do not need to use the data transfer hub to transfer their data to Alpine. This data transfer hub only applies to **marginal cases**!
 
 
 ## Procedure to access the hub, mount the server drive and initiate a data transfer:

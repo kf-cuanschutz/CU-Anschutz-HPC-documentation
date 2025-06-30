@@ -60,10 +60,13 @@ If you have logged into the the Rstudio OnDemand portal before, [please start he
 
 
 ### Setting Up OS library dependencies (only required one-time for most users)  
-1.  First you will want to download the following scripts into your `/projects/$USER/` directory on Alpine:  
-* step0_modify_overlay.sh  
-* step1_install_os_deps.sh  
-<br/>  
+1.  First you will want to download the "Rstudio_repo_related_files" repository into your `/projects/$USER/software` directory on Alpine by running the set of commands below.
+      
+```
+cd /projects/$USER/software
+git clone https://github.com/kf-cuanschutz/Rstudio_repo_related_files.git
+``` 
+<br/>
 
 2.  WARNING!!  This part can take a couple hours of Alpine builing your container, so if you don't want trust your internet connection or to prevent an interruptions, you may want to first run this behind a `screen` or `tmux` session.  
 
@@ -73,10 +76,8 @@ acompile --ntasks=4 --time=4:00:00
 ```  
 <br/>  
 
-3.  Then change directories into `/projects/$USER/software` by running the following:  
+3.  Then change directories into `/projects/$USER/software/Rstudio_repo_related_files` by running the following:  
 ```
-cd /projects/$USER/software
-git clone https://github.com/kf-cuanschutz/Rstudio_repo_related_files.git
 cd Rstudio_repo_related_files
 ```  
 <br/>  

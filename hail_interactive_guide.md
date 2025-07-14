@@ -24,7 +24,7 @@ In this guide, we plan to demonstrate how to run hail on Alpine interactively. T
    We request the partition for a walltime of 10 minutes.
 
    ```bash
-   sinteractive --partition=atesting --nodes=2 --ntasks=2 --time=00:10:00
+   sinteractive --partition=atesting --qos=testing --nodes=2 --ntasks=2 --time=00:10:00
    ```
 
 4) Now we want to export all the TMP related variables to scratch:

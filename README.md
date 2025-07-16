@@ -48,7 +48,6 @@ Quickbytes that are designed for package installation and pipeline optimization.
       * [CellBender with Cuda](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/cellbender_install_tutorial_.md)
 
   * Guide to use mamba instead of anaconda on Alpine:
-      * [Mamba guide on Alpine](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/mamba_tutorial.md)
       * [Miniforge guide on Alpine](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/miniforge_migration.md)
 
    * AMD gpu diversification on Alpine:

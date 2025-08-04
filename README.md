@@ -47,7 +47,7 @@ Quickbytes that are designed for package installation and pipeline optimization.
       * [Dorado with Cuda](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Dorado_installation_tutorial.md)
       * [CellBender with Cuda](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/cellbender_install_tutorial_.md)
 
-  * Guide to use mamba instead of anaconda on Alpine:
+  * Guide to use miniforge instead of anaconda on Alpine:
       * [Miniforge guide on Alpine](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/miniforge_migration.md)
 
    * AMD gpu diversification on Alpine:

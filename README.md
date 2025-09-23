@@ -99,6 +99,7 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [Globus and rclone workshop (09/08/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Globus_and_rclone_090825.pdf)
        * [Introduction to Alpine workshop (09/09/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Alpine_workshop_09092025_v3.pdf)
        * [Alpine module stack and miniforge (09/15/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/LMOD_and_anaconda_v2.pdf)
+       * [Workshop: How to use R on Alpine? (09/22/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Workshop_how_to_use_R_on_Alpine_v3.pdf)
 
 
 

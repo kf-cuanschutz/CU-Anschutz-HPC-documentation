@@ -1,7 +1,7 @@
 Installing Pytorch compatible with NVIDIA GPUs on Alpine:
 =========================================================
 
-This short tutorial will guide you through installing Pytorch on Alpine compatible with NVIDIA A100 acceleration.
+This short tutorial will guide you through installing Pytorch on Alpine compatible with the NVIDIA A100 and L40 chips.
 
 ## Pytorch installation steps.
 
@@ -9,41 +9,29 @@ This short tutorial will guide you through installing Pytorch on Alpine compatib
 
 ```bash
 module load slurm/alpine 
-acompile --ntasks=4 
+acompile --ntasks=4 --time=02:00:00
 ```
 
-2) Load anaconda, create your environment with python 3.10 and activate it.
+2) Load anaconda, create your environment with python 3.11 and activate it.
 
 ```bash
-module load anaconda
-conda create -n pytorch_env python=3.10 
+module load miniforge
+conda create -n pytorch_env python=3.11 
 conda activate pytorch_env
 ```
-3) Install pytorch, pytorch-cuda. You could also install torchvision and torchaudio if needed for your workflow.
+3) Install torch and torchvision as shown below. Please refer to this [table](https://pytorch.org/get-started/locally/) for more details.
 
 ```bash
-conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia 
+pip3 install torch torchvision
 ```
 
-4) Install cuda-toolkit 11.8.0
-
-```bash
-conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit 
-```
-
-5) Install nvidia-cudnn 8.6.0
-
-```bash
-pip install nvidia-cudnn-cu11==8.6.0.163 
-```
-
-6) To test that your installation is working you will need to exit "acompile"  first and load on the NVIDIA gpu debug partition on Alpine"
+4) To test that your installation is working you will need to exit "acompile"  first and load on the NVIDIA gpu debug partition on Alpine"
 
 ```bash
 conda deactivate
 exit
-sinteractive --partition=atesting_a100 --qos=testing --time=00:05:00 --gres=gpu:1 --ntasks=2
-module load anaconda
+sinteractive --partition=atesting_a100 --qos=testing --time=00:05:00 --gres=gpu:1 --ntasks=4 --nodes=1
+module load miniforge
 conda activate pytorch_env
 python
 ```

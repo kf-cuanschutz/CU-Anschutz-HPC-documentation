@@ -109,7 +109,8 @@ exit
 
 7.  Now you are all done!  You should be able to [request an Rstudio OnDemand session by following instructions listed in this link](#logging-into-rstudio-ondemand) and then install all R packges using `install.packages()` and `BiocManager::install()`.
 
-**Warning!!** If you need to install [hdf5r](https://cran.r-project.org/web/packages/hdf5r/index.html) or [velocyto](https://github.com/velocyto-team/velocyto.R/tree/master) afterwards please refer to the following guides: [1](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/hdf5r_installation_procedure_v2.pdf), [2](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/velocito_installation_procedure_v2.pdf)
+$$\color{red}{\textbf{Warning!!}}$$ 
+If you need to install [hdf5r](https://cran.r-project.org/web/packages/hdf5r/index.html) or [velocyto](https://github.com/velocyto-team/velocyto.R/tree/master) afterwards please refer to the following guides: [1](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/hdf5r_installation_procedure_v2.pdf), [2](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/velocito_installation_procedure_v2.pdf)
 
 ### Legacy version installation
 

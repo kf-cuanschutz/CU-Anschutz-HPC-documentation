@@ -82,18 +82,13 @@ cd Rstudio_repo_related_files
 ```  
 <br/>  
 
-4.  Now run the following if you wish to use the latest Rstudio version, 4.4.1:  
+4.  Now run the following if you wish to use the latest Rstudio version, 4.4.1: 
+
+***Note: If you wish to use the legacy 4.2.2 version of R, follow the [legacy version 4.2.2 installation section below](#legacy-version-installation), as it replaces this step***
 ```
 chmod u+x step0_modify_overlay.sh  
 chmod u+x step1_install_os_deps.sh
 ./step0_modify_overlay.sh  
-```
-
-**Note: If you wish to use the legacy 4.2.2 version, please make sure to run the following below instead:**
-```
-chmod u+x step0_r_v4_2_2_modify_overlay.sh  
-chmod u+x step1_install_os_deps.sh
-./step0_r_v4_2_2_modify_overlay.sh 
 ```
 
 <br/>  
@@ -115,3 +110,14 @@ exit
 7.  Now you are all done!  You should be able to [request an Rstudio OnDemand session by following instructions listed in this link](#logging-into-rstudio-ondemand) and then install all R packges using `install.packages()` and `BiocManager::install()`.
 
 **Warning!!** If you need to install [hdf5r](https://cran.r-project.org/web/packages/hdf5r/index.html) or [velocyto](https://github.com/velocyto-team/velocyto.R/tree/master) afterwards please refer to the following guides: [1](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/hdf5r_installation_procedure_v2.pdf), [2](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/velocito_installation_procedure_v2.pdf)
+
+### Legacy version installation
+
+***For the legacy 4.2.2 version of R, please make sure to run the following in place of step 4 above, before continuing with steps 5-7:***
+
+```
+chmod u+x step0_r_v4_2_2_modify_overlay.sh  
+chmod u+x step1_install_os_deps.sh
+./step0_r_v4_2_2_modify_overlay.sh 
+```
+

@@ -39,10 +39,16 @@ If you have logged into the the Rstudio OnDemand portal before, [please start he
 <img align="center" src="images/rstudio_gui.png">  
 <br/>  
 
-7. Now that you have logged in, in order to exit, you can press the red button located on the top right corner of your page and once pressed and you confirm exiting, you will receive the following message:  
+7. Now that you have logged in, in order to exit, you can select "file" in the top left corner, and click "Quit Session..."
+
+<br/>
+<img align="center" src="images/Rstudio_session_close.png">
+<br/>
+After exiting, you will recieve the following message:
+
 <br/>  
 <img align="center" src="images/rstudio_session_ended.png">  
-<br/>  
+<br/> 
 
 8.  Now go back to your interactive session tab browser and make sure to press the red `Delete` button to end your rstudio session request.  When asked to confirm, hit the red "Confirm" button.  
 <br/>  

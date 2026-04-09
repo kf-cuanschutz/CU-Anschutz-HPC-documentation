@@ -112,6 +112,18 @@ exit
 $$\color{red}{\textbf{Warning!!}}$$ 
 If you need to install [hdf5r](https://cran.r-project.org/web/packages/hdf5r/index.html) or [velocyto](https://github.com/velocyto-team/velocyto.R/tree/master) afterwards please refer to the following guides: [1](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/hdf5r_installation_procedure_v2.pdf), [2](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/velocito_installation_procedure_v2.pdf)
 
+#### Installing Suerat:
+
+If you properly configured the container above, following steps 1-7, you should be able to install Suerat, a commonly used R package, with this command:
+
+```
+install.packages("Seurat")
+```
+
+If the above doesn't work, something went wrong with your container configuration. Feel free to reach out to the support team at hpcsupport@cuanschutz.edu if you have any questions or issues with the above installation.
+<br/>  
+
+
 ### Legacy version installation
 
 ***For the legacy 4.2.2 version of R, please make sure to run the following in place of step 4 above, before continuing with steps 5-7:***

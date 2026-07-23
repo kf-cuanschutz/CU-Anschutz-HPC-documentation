@@ -27,11 +27,11 @@ cd Rcontainer_slurm_
 # This means MPI or Gnu parallel or Sparkcluster or Dask.
 
 #SBATCH --time=00:00:05 # The walltime requested. Here we are requesting only 5 seconds because the R script we are launching is not very computationally complex.
-#SBATCH --qos=normal # This means that we are requesting for a quality of service of a walltime up to 24 hours. 
+#SBATCH --qos=cpu-normal # This means that we are requesting for a quality of service of a walltime up to 24 hours. 
 
-#For a walltime > 24 hours one will have to request "--qos=long" and to acess the memory partition, one will request "--qos=mem": https://curc.readthedocs.io/en/latest/running-jobs/job-resources.html
+#For a walltime > 24 hours one will have to request "--qos=cpu-long" and to acess the memory partition, one will request "--qos=mem-normal" or "mem-long": https://curc.readthedocs.io/en/latest/clusters/alpine/alpine-hardware.html#quality-of-service-qos
 
-#SBATCH --partition=amilan # CPU partition, also known as the General purpose partition.
+#SBATCH --partition=acpu # CPU partition, also known as the General purpose partition.
 #SBATCH --ntasks=1 # Number of CPU cores requested. For this run, there is no parallelism at all so I am just requesting 1 core. I get 3.8G memory per core on a CPU partition: https://curc.readthedocs.io/en/latest/clusters/alpine/alpine-hardware.html#alpine-hardware
 
 #SBATCH --account=amc-general # The account name for a CU Anschutz user on Alpine

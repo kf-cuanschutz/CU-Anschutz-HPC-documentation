@@ -2,13 +2,10 @@
 set -euo pipefail
 
 # make software accessible:
-module load nextflow/23.04
-module load singularity/3.7.4
+module load nextflow
 
 echo ____________________________________
 nextflow -version
-echo ____________________________________
-singularity --version
 echo ____________________________________
 
 

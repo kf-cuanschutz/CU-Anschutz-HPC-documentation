@@ -101,7 +101,7 @@ Workshops given to customized to labs that have been already given. Send an emai
        * [Alpine module stack and miniforge (09/15/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/LMOD_and_anaconda_v2.pdf)
        * [Workshop: How to use R on Alpine? (09/22/25)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Workshop_how_to_use_R_on_Alpine_v3.pdf)
        * [Workshop: Updated introduction to Alpine (Fall 2026)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_to_Alpine_workshop_07212026_v3.pdf)
-       * [Workshop: Updated introduction to GPU partitions (Fall 2026)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_gpu_partitions_on_Alpine_100726_updated_v4.pdf)
+       * [Workshop: Updated introduction to GPU partitions (Fall 2026)](https://github.com/kf-cuanschutz/CU-Anschutz-HPC-documentation/blob/main/Workshops/Introduction_gpu_partitions_on_Alpine_100726_updated_v5.pdf)
 
 
 
